@@ -1,0 +1,169 @@
+*{
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    height: 200px;
+    width: 100%;
+    align-items: center;
+    background-color: #AAB2D5;
+}
+
+#nota{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    background-color: #AAB2D5;
+    font-size: 20px;
+    transition: 500ms;
+    transform: scale(1.1);
+}
+#nota :hover{
+    transform: scale(1.1);
+}
+.logo-alura, img{
+    margin-left: 10%;
+    width: 50px;
+}
+.main :hover{
+    transform: scale(1.1)
+    
+    
+    
+}
+.stage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    flex-wrap: wrap;
+    background-color: #F3F5FC;
+    box-sizing: border-box;
+    box-shadow:  5px 5px 10px black ;
+    transition: 500ms;
+    
+}
+#input-texto:hover{
+    transition: 500ms;
+    transform: scale(1.1)
+}
+.main{
+    transition: 1.1;
+}
+
+.input-texto{
+    margin: 5px;
+    width: 400px;
+    height: 400px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    text-align: center;
+    justify-content: center;
+    box-shadow:  5px 5px 10px black ;
+}
+.mensagem{
+    margin: 5px;
+    width: 400px;
+    height: 400px;
+    box-shadow:  5px 5px 10px black ;
+    background-color: #ffffff;
+    border-radius: 15px;
+    background-image: cover;
+    background-repeat: no-repeat;
+    background-image: url("/img/boneco.png")
+    
+}
+#mensagem{
+    transition: 500ms;
+}
+.botoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 10px;
+    padding: auto;
+    background-color: #F3F5FC;
+    font-size: large;
+    transition: 500ms;
+}
+
+#btnDescriptar{
+    background-color: #0A3871;
+    border-radius: 15px;
+    height: 100px;
+    width: 250px;
+    border: none;
+    box-shadow:  5px 5px 10px black ;
+    margin: 5px;
+    color: azure;
+    transition: 500ms;
+}
+#btnDescriptar:hover{
+    transform: scale(1.1)
+  
+}
+#encriptar{
+    background-color: #0A3871;
+    border-radius: 15px;
+    height: 100px;
+    width: 250px;
+    border: none;
+    box-shadow:  5px 5px 10px black ;
+    margin: 5px;
+    color: azure;
+    transition: 500ms;
+}
+#encriptar:hover{
+    transform: scale(1.1)
+}
+
+#copiaTexto{
+    background-color: #0A3871;
+    border-radius: 15px;
+    height: 100px;
+    width: 250px; 
+    border: none;
+    box-shadow:  5px 5px 10px black ;
+    margin: 5px; 
+    color: azure;
+    transition: 500ms;
+    
+}
+#copiaTexto:hover{
+    transform: scale(1.1)
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    background-color: #AAB2D5;
+    box-sizing: border-box;
+    height: 200px;
+    color: azure;
+    
+}
+/*
+ confg class botoes
+
+ display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 10px;
+    padding: auto;
+    background-color: #757FB2;
+    font-size: large;
+*/

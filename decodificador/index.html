@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="reset.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Decodificador</title>
+</head>
+<body>
+    <header>
+        <img class="logo-alura" src="/img/logo-alura.png" alt="Logo da Alura.">
+        
+    </header>
+            <div id="nota">
+                <h4>Atenção! apenas letras maiúsculas e minúsculas.</h4>
+            </div>
+       <main class="main">   
+           <div class="stage"> 
+                             
+                <textarea class="input-texto" id="input-texto" cols="18" rows="6" placeholder="White someting here."></textarea>
+                                        
+                <textarea class="mensagem" id="mensagem" cols="18" rows="6"></textarea>       
+                            
+            </div>
+                        <div class="botoes">
+                            <button id="encriptar" onclick="btnEncriptar()">
+                                Criptografar
+                            </button>
+                        
+                            <button id="btnDescriptar" class="descriptar" onclick="btnDescriptar()">
+                                Descriptografar
+                            </button>
+
+                            <button class="copiaTexto" id="copiaTexto" onclick = "copiaTexto()">
+                                Copiar
+                        </button>
+        </main> 
+        <footer>
+            <div class="footer">
+                <a href="https://www.linkedin.com/in/mario-ramos-aa5440235/" target="_blank"> <img src="/img/linkedin.png" alt="Logo-linkedin"> </a>
+
+               
+                     
+            </div>      
+            
+        </footer>  
+    
+            <script src="script.js"></script>
+
+</body>
+</html>
